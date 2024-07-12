@@ -4,7 +4,7 @@ import women_getting_injection from "../assets/image/webp/women-getting-injectio
 import bottom_right from "../assets/image/webp/bottom-right.webp";
 import top_left from "../assets/image/webp/light-green-left-top.webp";
 
-const Card = () => {
+const Technology = () => {
     const cardData = [
         {
             id: 1,
@@ -64,4 +64,4 @@ const Card = () => {
     )
 }
 
-export default Card;
+export default Technology;

@@ -1,10 +1,10 @@
 import './App.css';
-import Card from './components/Card';
+import Technology from './components/Technology';
 
 function App() {
   return (
     <main className=' overflow-hidden'>
-      <Card />
+      <Technology />
     </main>
   );
 }
