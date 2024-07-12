@@ -23,7 +23,7 @@ const Card = () => {
     ];
 
     return (
-        <section className='py-10 relative'>
+        <section className='py-10 relative max-w-[1920px] mx-auto'>
             <div className="container px-3 py-0.5 mb-px relative z-[1]">
                 <div className="bg-light_gray p-5 lg:p-10 flex flex-col items-center">
                     <div className="flex items-center justify-center gap-1 sm:gap-3">
