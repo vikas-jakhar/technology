@@ -38,8 +38,8 @@ const Card = () => {
                     </h2>
                     <div className="flex flex-col justify-center md:flex-row items-center md:items-start md:mt-14 mt-5 gap-10 md:gap-8 lg:gap-10 pt-1 w-full h-full">
                         {cardData.map((card) => (
-                            <div key={card.id} className="max-w-[510px] w-full h-full min-h-[627px]">
-                                <div className="border-[#0000001A] border-[1.09px] h-full">
+                            <div key={card.id} className="max-w-[510px] w-full h-full xl:min-h-[627px]">
+                                <div className="border-[#0000001A] border-[1.09px] h-full lg:min-h-[604px] bg-white">
                                     <img src={card.image} alt={card.title} className='w-full h-full xl:min-h-[390px]' />
                                     <div className="bg-white md:p-[30px] p-5">
                                         <p className='font-Archivo font-semibold text-primary_black text-25 leading-32'>
