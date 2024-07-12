@@ -1,6 +1,8 @@
 import React from 'react';
 import women from "../assets/image/webp/women.png";
 import women_getting_injection from "../assets/image/webp/women-getting-injection.png";
+import bottom_right from "../assets/image/webp/bottom-right.png";
+import top_left from "../assets/image/webp/light-green-left-top.png";
 
 const Card = () => {
     const cardData = [
@@ -21,8 +23,8 @@ const Card = () => {
     ];
 
     return (
-        <section className='py-10'>
-            <div className="container px-3 py-0.5 mb-px">
+        <section className='py-10 relative'>
+            <div className="container px-3 py-0.5 mb-px relative z-[1]">
                 <div className="bg-light_gray p-5 lg:p-10 flex flex-col items-center">
                     <div className="flex items-center justify-center gap-1 sm:gap-3">
                         <span className='sm:w-[60px] w-5 h-0.5 bg-light_green flex'></span>
@@ -56,6 +58,8 @@ const Card = () => {
                     </div>
                 </div>
             </div>
+            <img src={top_left} alt="top_left" className=' absolute top-0 left-0' />
+            <img src={bottom_right} alt="bottom_right" className=' absolute bottom-0 right-0' />
         </section>
     )
 }
