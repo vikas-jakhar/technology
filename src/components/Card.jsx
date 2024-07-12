@@ -48,7 +48,7 @@ const Card = () => {
                                         <p className='mt-4 font-Archivo font-normal text-base text-primary_black opacity-70'>
                                             {card.description}
                                         </p>
-                                        <button className='mt-[27px] duration-300 ease-linear hover:text-light_green hover:bg-white hover:shadow-[0px_0px_0px_1px_#6E9277_inset,0px_0px_0px_1px_#FFFFFF,0px_0px_2px_2px_#6E9277] font-Archivo font-semibold text-white py-4 px-7 text-lg bg-light_green'>
+                                        <button className='mt-[27px] duration-300 ease-linear hover:text-light_green hover:bg-white hover:shadow-[0px_0px_0px_1px_#6E9277_inset,0px_0px_0px_1px_#FFFFFF,0px_0px_2px_2px_#6E9277] font-Archivo font-semibold text-white py-2 sm:py-3 px-5 sm:px-7 text-sm sm:text-lg bg-light_green'>
                                             {card.buttonText}
                                         </button>
                                     </div>
